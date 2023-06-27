@@ -16,7 +16,7 @@ class Solution {
     }
 public:
     int trailingZeroes(int n) {
-        return alternate(n);
+        //return alternate(n);
         if(n<4)
          return 0;
         else
