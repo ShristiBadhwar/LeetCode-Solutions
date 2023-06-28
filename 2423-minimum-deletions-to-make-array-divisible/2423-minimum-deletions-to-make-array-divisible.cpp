@@ -1,7 +1,7 @@
 class Solution {
    int calc(int a, int b)
     {
-    return b == 0 ? a : gcd(b, a % b);   
+    return a == 0 ? b : gcd(b%a, a );   
     }
     int hcf(vector<int> nums)
     {
