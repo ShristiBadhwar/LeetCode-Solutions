@@ -1,5 +1,6 @@
 class Solution {
 public:
+//using KMP algo and generating lps table
     string longestPrefix(string s) {
         int n=s.length();
         int arr[n];
