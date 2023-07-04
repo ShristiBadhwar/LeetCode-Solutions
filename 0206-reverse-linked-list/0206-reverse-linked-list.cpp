@@ -19,11 +19,8 @@ class Solution {
          
         else
         {
-          ListNode* forward=curr->next;
+          solve(head,curr,curr->next);
           curr->next=prev;
-          prev=curr;
-          curr=forward;
-          solve(head,prev,curr);
         } 
     }
 public:
